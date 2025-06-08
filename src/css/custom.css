@@ -38,6 +38,8 @@
   --ifm-color-primary-lightest: #93c5fd;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-hero-title: linear-gradient(135deg, #1e293b 0%, #3b82f6 50%, #06b6d4 100%);
+  --ifm-color-gradient-text: linear-gradient(135deg, #343333 0%, #666666 100%);
 
   /* Refine.dev 风格的变量 */
   /* --refine-gradient-bg: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%); */
@@ -63,10 +65,14 @@
   --ifm-color-primary-lighter: #bfdbfe;
   --ifm-color-primary-lightest: #dbeafe;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* --ifm-color-hero-title: linear-gradient(135deg, #1e293b 0%, #3b82f6 50%, #06b6d4 100%); */
+  --ifm-color-hero-title: linear-gradient(135deg, #f9f9f9 0%, #b3cb3e 50%, #b2caa7 100%);
+  --ifm-color-gradient-text: linear-gradient(135deg, #ffffff 0%, #bfbfbf 100%);
 
   /* 暗色主题的 Refine 风格变量 */
   --refine-gradient-bg: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
   --refine-card-bg: linear-gradient(135deg, rgba(30, 41, 59, 0.9) 0%, rgba(51, 65, 85, 0.9) 100%);
+  /* --refine-card-bg: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%); */
 
   --refine-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   --refine-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
@@ -101,7 +107,9 @@
 .hero__title {
   font-size: 3.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #1e293b 0%, #3b82f6 50%, #06b6d4 100%);
+  /* background: linear-gradient(135deg, #1e293b 0%, #3b82f6 50%, #06b6d4 100%); */
+  background: var(--ifm-color-hero-title);
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -280,7 +288,9 @@
 
 .features-section2 {
   /* background: var(--refine-gradient-bg); */
-  background:var(--ifm-color-primary);
+  background: var(--ifm-color-primary);
+  /* background: #2563eb; */
+  /* background: greenyellow; */
   /* background: var(--ifm-color-primary-dark); */
   padding: 4rem 0;
   position: relative;
@@ -552,7 +562,8 @@
 /* 渐变文字效果 */
 .gradient-text {
   /* background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%); */
-  background: linear-gradient(135deg, #343333 0%, #666666 100%);
+  /* background: linear-gradient(135deg, #343333 0%, #666666 100%); */
+  background: var(--ifm-color-gradient-text);
   /* background: linear-gradient(135deg, #1e293b 0%, #3b82f6 50%, #06b6d4 100%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
