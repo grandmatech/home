@@ -1,6 +1,7 @@
 #!/bin/bash
 
-git config user.name "grandmatech" && git config user.email "grandmatech@126.com"
+# git config user.name "grandmatech"
+# git config user.email "grandmatech@126.com"
 
 if [ "$1" == "proxy" ]; then  # ./deploy.sh proxy 运行时
     proxy_ip='http://127.0.0.1:7890'
@@ -12,7 +13,7 @@ fi
 
 git add -A && git commit -m "first deploy" && git push -u origin main
 
-USE_SSH=true yarn deploy  # 自动部署到 github page
+USE_SSH=true GIT_USER_NAME=grandmatech GIT_USER_EMAIL=grandmatech@126.com yarn deploy  # 自动部署到 github page
 
 if [ "$1" == "proxy" ]; then
     git config --global --unset http.proxy  # 取消 git 代理
