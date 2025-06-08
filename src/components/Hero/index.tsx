@@ -1,6 +1,7 @@
 import React, { JSX } from "react";
 import Link from "@docusaurus/Link";
 import Translate from "@docusaurus/Translate";
+import config from "@generated/docusaurus.config";
 
 // const Hero: React.FC = () => {
 export default function Hero(): JSX.Element {
@@ -73,7 +74,8 @@ export default function Hero(): JSX.Element {
           {/* 右侧：图片 */}
           <div className="tw-flex tw-justify-left">
             <img
-              src="/img/hero.png" // 替换为您的图片路径
+              // src="/img/hero.png" // 替换为您的图片路径
+              src={config.customFields.imgUrlHero as string}
               alt="企业信息化解决方案"
               width="80%"
               style={{

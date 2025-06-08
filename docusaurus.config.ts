@@ -225,6 +225,14 @@ const config: Config = {
       },
     ],
   ],
+
+  customFields: {
+    imgUrlLogo: "https://i.postimg.cc/8cdr8H4h/logo.png",
+    imgUrlHero: "https://i.postimg.cc/bNQR80rV/hero.png",
+    imgUrlPengkai: "https://i.postimg.cc/hjpHCWWx/pengkai.png",
+    imgUrlShuiqing: "https://i.postimg.cc/1t9kcRTs/shuiqing.png",
+    imgUrlLebang: "https://i.postimg.cc/PqzGwvSS/lebang.png",
+  },
 };
 
 export default config;

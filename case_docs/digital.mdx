@@ -2,7 +2,7 @@
 # id: QucikStart
 # slug: /
 ---
-
+import config from "@generated/docusaurus.config";
 
 # 鹏凯环境
 
@@ -30,7 +30,7 @@
 >
   <div className="col col--4">
     <img
-      src="/img/hero.png"
+      src={config.customFields.imgUrlHero}
       style={
         {
           // alignItems: "center",
@@ -56,7 +56,7 @@
 >
   <div className="col col--4">
     <img
-      src="/img/hero.png"
+      src={config.customFields.imgUrlHero}
       style={
         {
           // alignItems: "center",

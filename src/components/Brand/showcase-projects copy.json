@@ -1,7 +1,7 @@
 [
   {
     "name": "中山大学",
-    "image": "https://i.postimg.cc/SRmx9pLM/image.png",
+    "image": "img/logos/中山大学.png",
     "href": "https://astro.build/1",
     "width": 160,
     "height": 18,
@@ -9,7 +9,7 @@
   },
   {
     "name": "花都排水",
-    "image": "https://i.postimg.cc/Zq19CgD8/image.jpg",
+    "image": "img/logos/花都排水.jpg",
     "href": "https://astro.build/2",
     "width": 70,
     "height": 18,
@@ -17,7 +17,7 @@
   },
   {
     "name": "鹏凯环境",
-    "image": "https://i.postimg.cc/GhqHk95h/image.png",
+    "image": "img/logos/鹏凯环境.png",
     "href": "https://astro.build/3",
     "width": 170,
     "height": 16,
@@ -25,7 +25,7 @@
   },
   {
     "name": "粤海水务",
-    "image": "https://i.postimg.cc/Y96SjSF7/image.png",
+    "image": "img/logos/粤海水务.png",
     "href": "https://astro.build/4",
     "width": 180,
     "height": 16,
@@ -33,7 +33,7 @@
   },
   {
     "name": "广东环保",
-    "image": "https://i.postimg.cc/6Q726wz6/image.png",
+    "image": "img/logos/广东环保.png",
     "href": "https://astro.build/5",
     "width": 170,
     "height": 16,
@@ -41,7 +41,7 @@
   },
   {
     "name": "广东省电信规划设计院有限公司",
-    "image": "https://i.postimg.cc/gjKrt0cs/image.png",
+    "image": "img/logos/广东省电信规划设计院有限公司.png",
     "href": "https://astro.build/6",
     "width": 220,
     "height": 16,
@@ -49,7 +49,7 @@
   },
   {
     "name": "华南师范大学",
-    "image": "https://i.postimg.cc/xT0XJLg4/image.png",
+    "image": "img/logos/华南师范大学.png",
     "href": "https://astro.build/7",
     "width": 70,
     "height": 16,
@@ -57,7 +57,7 @@
   },
   {
     "name": "乐邦环境",
-    "image": "https://i.postimg.cc/ZYP95wPN/image.png",
+    "image": "img/logos/乐邦环境.png",
     "href": "https://astro.build/8",
     "width": 170,
     "height": 16,
@@ -65,7 +65,7 @@
   },
   {
     "name": "水清环保",
-    "image": "https://i.postimg.cc/ZqyntHKC/image.png",
+    "image": "img/logos/水清环保.png",
     "href": "https://astro.build/9",
     "width": 150,
     "height": 16,
@@ -73,7 +73,7 @@
   },
   {
     "name": "南风环境",
-    "image": "https://i.postimg.cc/bwrdL870/image.png",
+    "image": "img/logos/南风环境.png",
     "href": "https://astro.build/10",
     "width": 180,
     "height": 18,
@@ -81,7 +81,7 @@
   },
   {
     "name": "适然环境",
-    "image": "https://i.postimg.cc/kgHGpzC0/image.png",
+    "image": "img/logos/适然环境.png",
     "href": "https://astro.build/11",
     "width": 65,
     "height": 16,
@@ -89,7 +89,7 @@
   },
   {
     "name": "广东交通集团",
-    "image": "https://i.postimg.cc/DZLSsgtt/image.png",
+    "image": "img/logos/广东交通集团.png",
     "href": "https://astro.build/12",
     "width": 70,
     "height": 16,
@@ -97,7 +97,7 @@
   },
   {
     "name": "通驿",
-    "image": "https://i.postimg.cc/W3L32ZhS/image.png",
+    "image": "img/logos/通驿.png",
     "href": "https://astro.build/13",
     "width": 150,
     "height": 16,
@@ -105,7 +105,7 @@
   },
   {
     "name": "华浩环保",
-    "image": "https://i.postimg.cc/tJbYz6b7/image.png",
+    "image": "img/logos/华浩环保.png",
     "href": "https://astro.build/14",
     "width": 180,
     "height": 14,
@@ -113,7 +113,7 @@
   },
   {
     "name": "正诚",
-    "image": "https://i.postimg.cc/D05ydY5Y/image.png",
+    "image": "img/logos/正诚.png",
     "href": "https://astro.build/15",
     "width": 70,
     "height": 16,

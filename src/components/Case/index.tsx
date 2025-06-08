@@ -1,5 +1,6 @@
 import React, { JSX } from "react";
 import Link from "@docusaurus/Link";
+import config from "@generated/docusaurus.config";
 
 // const CaseList = [
 //   {
@@ -34,7 +35,8 @@ const CaseList = [
     description:
       "集成水质监测、管网管理、营收管理等功能，实现水务企业的全方位数字化管理。",
     icon: "🌊",
-    img: "/img/pengkai.png",
+    // img: "/img/pengkai.png",
+    img: config.customFields.imgUrlPengkai as string,
     link: "/case_docs/digital",
     features: ["实时水质监测", "智能管网巡检", "客户服务管理", "数据分析决策"],
   },
@@ -43,7 +45,8 @@ const CaseList = [
     description:
       "通过物联网、大数据等技术，构建城市级的智慧管理平台，提升城市治理水平。",
     icon: "🏙️",
-    img: "/img/shuiqing.png",
+    // img: "/img/shuiqing.png",
+    img: config.customFields.imgUrlShuiqing as string,
     link: "/case_docs/integration",
     features: ["城市运行监测", "应急指挥调度", "公共服务优化", "数据融合分析"],
   },
@@ -51,7 +54,8 @@ const CaseList = [
     title: "乐邦环境",
     description: "为企业提供全面的数字化转型服务，优化业务流程，提升运营效率。",
     icon: "🏢",
-    img: "/img/lebang.png",
+    // img: "/img/lebang.png",
+    img: config.customFields.imgUrlLebang as string,
     link: "/case_docs/ai",
     features: ["业务流程重构", "系统集成整合", "数据资产管理", "智能分析决策"],
   },
