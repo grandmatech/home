@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git config user.name "grandmatech" && git config user.email "grandmatech@126.com"
+
 if [ "$1" == "proxy" ]; then  # ./deploy.sh proxy 运行时
     proxy_ip='http://127.0.0.1:7890'
     git config --global http.proxy $proxy_ip  # 设置 git 代理
@@ -8,7 +10,7 @@ if [ "$1" == "proxy" ]; then  # ./deploy.sh proxy 运行时
     yarn config set https-proxy $proxy_ip
 fi
 
-git add -A && git commit -m "0.11.5 released" && git push -u origin main
+git add -A && git commit -m "first deploy" && git push -u origin main
 
 USE_SSH=true yarn deploy  # 自动部署到 github page
 
