@@ -11,8 +11,8 @@ fi
 
 git add -A && git commit -m "first deploy" && git push -u origin main
 
-# GIT_USER=grandmatech GIT_USER_NAME=grandmatech GIT_USER_EMAIL=grandmatech@126.com yarn deploy  # 自动部署到 github page
-USE_SSH=true yarn deploy
+GIT_USER=grandmatech GIT_USER_NAME=grandmatech GIT_USER_EMAIL=grandmatech@126.com yarn deploy  # 自动部署到 github page
+# USE_SSH=true yarn deploy
 
 
 if [ "$1" == "proxy" ]; then

@@ -15,7 +15,7 @@ const config: Config = {
   organizationName: "grandmatech", // must be your GitHub org/user name.
   projectName: "home", // must be your repo name.
   trailingSlash: false,
-  deploymentBranch: "gh-pages",
+  deploymentBranch: "gh-pages", // 必须提前新建好 gh-pages 分支
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
