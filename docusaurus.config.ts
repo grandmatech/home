@@ -7,12 +7,13 @@ const config: Config = {
   tagline: "专业的企业信息化解决方案提供商",
   favicon: "img/favicon.ico",
 
-  url: "https://your-company-website.com",
-  baseUrl: "/",
+  // url: "https://your-company-website.com",
+  url: "https://grandmatech.github.io",
+  baseUrl: "/home/", // must be your repo name.
 
   // GitHub pages deployment config.
-  organizationName: "GLM",
-  projectName: "GLM-home",
+  organizationName: "grandmatech", // must be your GitHub org/user name.
+  projectName: "home", // must be your repo name.
   trailingSlash: false,
   deploymentBranch: "gh-pages",
 
