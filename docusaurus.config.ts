@@ -17,7 +17,8 @@ const config: Config = {
   trailingSlash: false,
   deploymentBranch: "gh-pages", // 必须提前新建好 gh-pages 分支
 
-  onBrokenLinks: "throw",
+  // onBrokenLinks: 'throw', // 检测到无效链接时的行为, 抛出错误, v3 升级后 build 时会报错
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
   i18n: {
@@ -55,14 +56,34 @@ const config: Config = {
         content: "信息化, 云计算, 大数据, 网络安全, 软件开发",
       },
     ],
-    // image: "img/docusaurus-social-card.jpg",
+
+    colorMode: {
+      disableSwitch: false,
+      defaultMode: "light",
+      // respectPrefersColorScheme: true,
+    },
+
+    liveCodeBlock: {
+      /**
+       * 实时效果显示的位置，在编辑器上方还是下方。
+       * 可为："top" | "bottom"
+       */
+      playgroundPosition: "bottom",
+    },
+
+    // image: "img/hero.png",
     navbar: {
+      hideOnScroll: true,
       title: "格岚玛科技",
       logo: {
-        alt: "格岚玛科技 Logo",
-        src: "img/logo.png",
+        alt: ":ogo",
+        src: "https://i.postimg.cc/8cdr8H4h/logo.png",
       },
       items: [
+        // {
+        //   type: "localeDropdown",
+        //   position: "right",
+        // },
         { to: "/", label: "首页", position: "left" },
         { to: "/solution_docs", label: "解决方案", position: "left" },
         { to: "/scenario_docs", label: "应用场景", position: "left" },
@@ -163,10 +184,10 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} 格岚玛（广州）科技有限公司. All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备XXXXXXXX号</a>`, // 替换备案号
     },
-    // prism: {
-    //   theme: prismThemes.github,
-    //   darkTheme: prismThemes.dracula,
-    // },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
     // colorMode: {
     //   defaultMode: "dark",
     //   disableSwitch: false,

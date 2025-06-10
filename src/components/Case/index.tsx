@@ -164,8 +164,10 @@ export default function Case(): JSX.Element {
                   padding: "1rem",
                 }}
               >
-                <div className="row">
-                  <div className="col col--6">
+                {/* <div className="row"> */}
+                <div className="tw-grid md:tw-grid-cols-1 lg:tw-grid-cols-2">
+                  {/* <div className="col col--6"> */}
+                  <div className="">
                     <h2
                       className="gradient-text"
                       style={{
@@ -177,7 +179,8 @@ export default function Case(): JSX.Element {
                       {solution.title}
                     </h2>
                   </div>
-                  <div className="col col--6 text--right">
+                  {/* <div className="col col--6 text--right"> */}
+                  <div className="sm:tw-text-left md:tw-text-right">
                     <Link
                       to={solution.link}
                       className="btn-gradient"

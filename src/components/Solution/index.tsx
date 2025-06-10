@@ -101,20 +101,37 @@ function Feature({ title, description, icon, iconColor, link }: FeatureItem) {
         {/* <DocusaurusSvg className="themedDocusaurus" width="100" height="100"/> */}
         {/* <img id="mySvgImage" src="/img/icons/database-svgrepo-com.svg" alt="My SVG" /> */}
       </div>
-      <div className="row">
-        <div className="col col--7">
+      {/* <div className="row"> */}
+      {/* <div className="tw-grid tw-grid-cols-2 tmd:tw-grid-cols-2 lg:tw-grid-cols-4"> */}
+      {/* <div className="tw-columns-2 tw-sm:tw-columns-6"> */}
+
+      {/* <div className="tw-grid tw-grid-cols-1 sm:tw-grid-cols-2 lg:tw-grid-cols-4">
+        <div className="tw-bg-red-500">Item 1</div>
+        <div className="tw-bg-green-500">Item 2</div>
+        <div className="tw-bg-blue-500">Item 3</div>
+        <div className="tw-bg-yellow-500">Item 4</div>
+      </div> */}
+
+      <div className="tw-grid md:tw-grid-cols-1 lg:tw-grid-cols-2">
+        {/* <div className="tw-grid tw-grid-cols-1"> */}
+        {/* <div className="col col--7"> */}
+        <div className="">
           <h3>{title}</h3>
         </div>
-        <div className="col col--5 text--right">
+        {/* <div className="col tw-col--5 text--right"> */}
+        <div className="sm:tw-text-left md:tw-text-right">
           <Link
             to={`${link}`}
             className="btn-gradient"
             // className="refine-button refine-button--secondary"
             style={{
+              // display: "flex",
               // fontSize: "0.8rem",
               // color: "var(--ifm-color-emphasis-700)",
               marginTop: "-0.5rem",
               marginRight: "-0.8rem",
+              // marginTop: "-52.5rem",
+              // paddingLeft: "0rem",
               // color: "grey",
               // color: "#3b82f6",
               // marginBottom: "1rem",

@@ -179,7 +179,8 @@ export default function Brand(): JSX.Element {
 
         {/* <div className="refine-card"> */}
         <div className="">
-          <div className="tw-mt-8 tw-grid tw-grid-cols-4 tw-gap-0.5 tw-md:grid-cols-6 tw-lg:mt-0 tw-lg:grid-cols-8">
+          {/* <div className="tw-mt-8 tw-grid tw-grid-cols-4 tw-gap-0.5 tw-md:grid-cols-6 tw-lg:mt-0 tw-lg:grid-cols-8"> */}
+          <div className="tw-mt-8 tw-grid tw-gap-0.5 md:tw-grid-cols-4 tw-grid-cols-2">
             {showcaseProjects
               // .sort((a, b) => {
               //   return a.index.localeCompare(b.index);
@@ -188,6 +189,7 @@ export default function Brand(): JSX.Element {
                 <div
                   key={href}
                   className="tw-col-span-1 tw-flex tw-justify-center tw-py-6 tw-px-2 tw-text-center"
+                  // className=""
                 >
                   <a
                     href={href}
