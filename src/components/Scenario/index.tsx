@@ -34,11 +34,11 @@ export default function Scenario(): JSX.Element {
               className="custom-tabs tw-justify-center"
               defaultValue="case1"
               values={[
-                { label: "污水厂运营管理", value: "case1" },
-                { label: "站点工艺优化", value: "case2" },
-                { label: "站点综合管理驾驶舱", value: "case3" },
-                { label: "污水厂财务分析", value: "case4" },
-                { label: "安全管理与培训", value: "case5" },
+                { label: "运营管理", value: "case1" },
+                { label: "工艺优化", value: "case2" },
+                { label: "综合管理", value: "case3" },
+                { label: "财务分析", value: "case4" },
+                { label: "安全管理", value: "case5" },
               ]}
               onTabChange={(value) => setActiveTab(value)}
             >
