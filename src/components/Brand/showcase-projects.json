@@ -1,5 +1,13 @@
 [
   {
+    "name": "帆软",
+    "image": "https://i.postimg.cc/QxdkdJp0/image.jpg",
+    "href": "https://astro.build/1",
+    "width": 160,
+    "height": 18,
+    "marginTop": "-1.2rem"
+  },
+  {
     "name": "中山大学",
     "image": "https://i.postimg.cc/SRmx9pLM/image.png",
     "href": "https://astro.build/1",
