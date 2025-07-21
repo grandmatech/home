@@ -638,6 +638,12 @@
   fill: seagreen;
 }
 
+.custom-tabs-1 {
+
+  justify-content: center;
+}
+
+
 .custom-tabs-container {
   --tab-background-active: #cbd5e1;
   --tab-text-color: #64748b;
@@ -646,6 +652,14 @@
   --transition-duration: 0.3s;
   --transition-easing: cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 2rem;
+  justify-content: center;
+
+  display: flex;
+}
+
+.custom-tabs-container .tabs {
+  display: flex;
+  /* 确保 Tabs 内部元素也可以水平排列 */
 }
 
 .custom-tabs .tabs {

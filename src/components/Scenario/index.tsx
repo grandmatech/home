@@ -3,9 +3,11 @@ import Link from "@docusaurus/Link";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import config from "@generated/docusaurus.config";
+import { isMobile, isDesktop } from "react-device-detect";
 
 export default function Scenario(): JSX.Element {
   const [activeTab, setActiveTab] = useState("case1");
+  const className = isMobile ? "custom-tabs" : "custom-tabs tw-justify-center";
 
   return (
     // <section className="section-padding" style={{background: 'var(--ifm-background-surface-color)'}}>

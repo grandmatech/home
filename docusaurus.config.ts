@@ -9,7 +9,8 @@ const config: Config = {
 
   // url: "https://your-company-website.com",
   url: "https://grandmatech.github.io",
-  baseUrl: "/home/", // must be your repo name.
+  // baseUrl: "/home/", // must be your repo name.
+  baseUrl: "/", // edgeone 要求为 /
 
   // GitHub pages deployment config.
   organizationName: "grandmatech", // must be your GitHub org/user name.
@@ -182,7 +183,7 @@ const config: Config = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 格岚玛（广州）科技有限公司. All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备XXXXXXXX号</a>`, // 替换备案号
+      copyright: `Copyright © ${new Date().getFullYear()} 格岚玛（广州）科技有限公司. All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025444806号</a>`, // 替换备案号
     },
     prism: {
       theme: prismThemes.github,
