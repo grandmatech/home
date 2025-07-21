@@ -22,10 +22,10 @@ const config: Config = {
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
-  i18n: {
-    defaultLocale: "zh-CN",
-    locales: ["zh-CN", "en"],
-  },
+  // i18n: {
+  //   defaultLocale: "zh-CN",
+  //   locales: ["zh-CN", "en"],
+  // },
 
   presets: [
     [
