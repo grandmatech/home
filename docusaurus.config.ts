@@ -8,7 +8,9 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // url: "https://your-company-website.com",
-  url: "https://grandmatech.github.io",
+  // url: "https://grandmatech.github.io",
+  // url: "https://grandmatech.github.io/home/",
+  url: "https://grandmatech.cn",
   // baseUrl: "/home/", // must be your repo name.
   baseUrl: "/", // edgeone 要求为 /
 
