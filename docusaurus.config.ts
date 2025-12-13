@@ -185,7 +185,7 @@ const config: Config = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 格岚玛（广州）科技有限公司. All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025444806号</a>`, // 替换备案号
+      copyright: `Copyright © ${new Date().getFullYear()} 格岚玛（广州）科技有限公司. All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025444806号-1</a>`, // 替换备案号
     },
     prism: {
       theme: prismThemes.github,
