@@ -185,7 +185,7 @@ const config: Config = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 格岚玛（广州）科技有限公司. All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025444806号-1</a> <img src="https://qcloudimg.tencent-cloud.cn/raw/eed02831a0e201b8d794c8282c40cf2e.png" style="width: 14px; margin-right: 5px;">`, // 替换备案号
+      copyright: `<span style="color: grey;">Copyright © ${new Date().getFullYear()} 格岚玛（广州）科技有限公司. All Rights Reserved. <a style="color: grey;" href="https://beian.mps.gov.cn/#/query/webSearch?code=44011302004916" target="_blank" rel="nofollow"> <img src="https://qcloudimg.tencent-cloud.cn/raw/eed02831a0e201b8d794c8282c40cf2e.png" style="width: 14px; margin-right: 5px;"> <span>粤公网安备44011302004916号 </span></a> <a style="color: grey;" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025444806号-1</a></span>`, // 替换备案号
     },
     prism: {
       theme: prismThemes.github,
