@@ -15,7 +15,8 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   // svg: https://www.svgrepo.com/
   {
-    title: "企业数字化转型",
+    // title: "企业数字化转型",
+    title: "数字化转型",
     icon: "💻",
     iconColor: "grey",
     link: "/solution_docs/digital",
@@ -36,36 +37,37 @@ const FeatureList: FeatureItem[] = [
     link: "/solution_docs/integration",
     description: (
       <>
-        通过API、RPA接口等技术，打破企业信息系统间的数据孤岛，让数据自由流动，实现跨部门无缝协同，流程自动化管理，提高企业效率。
+        通过API、RPA等技术，打破企业信息系统间的数据孤岛，让数据自由流动，实现跨部门无缝协同，流程自动化管理，提高企业效率。
       </>
     ),
   },
+  // {
+  //   title: "AI解决方案",
+  //   icon: "🤖",
+  //   iconColor: "green",
+  //   link: "/solution_docs/ai",
+  //   description: (
+  //     <>
+  //       结合最新AI技术，为企业提供智能化的业务解决方案，提升运营效率和决策质量。
+  //       显著降低运营成本，大幅提升工作效率，创造更大商业价值。
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: "数据分析与洞察",
+  //   icon: "📈",
+  //   iconColor: "red",
+  //   link: "/solution_docs/bi",
+  //   description: (
+  //     <>
+  //       通过数据分析和可视化技术，化繁为简，帮助企业从数据中发现商业洞察和增长机会。
+  //       精准定位目标客户，数据驱动增长，洞察成就未来。
+  //     </>
+  //   ),
+  // },
   {
-    title: "AI解决方案",
-    icon: "🤖",
-    iconColor: "green",
-    link: "/solution_docs/ai",
-    description: (
-      <>
-        结合最新AI技术，为企业提供智能化的业务解决方案，提升运营效率和决策质量。
-        显著降低运营成本，大幅提升工作效率，创造更大商业价值。
-      </>
-    ),
-  },
-  {
-    title: "数据分析与洞察",
-    icon: "📈",
-    iconColor: "red",
-    link: "/solution_docs/bi",
-    description: (
-      <>
-        通过数据分析和可视化技术，化繁为简，帮助企业从数据中发现商业洞察和增长机会。
-        精准定位目标客户，数据驱动增长，洞察成就未来。
-      </>
-    ),
-  },
-  {
-    title: "数字化人才培训",
+    // title: "数字化人才培训",
+    title: "人才培训",
     icon: "💡",
     iconColor: "yellow",
     link: "/solution_docs/train",
@@ -115,8 +117,17 @@ function Feature({ title, description, icon, iconColor, link }: FeatureItem) {
       <div className="tw-grid md:tw-grid-cols-1 lg:tw-grid-cols-2">
         {/* <div className="tw-grid tw-grid-cols-1"> */}
         {/* <div className="col col--7"> */}
-        <div className="">
-          <h3>{title}</h3>
+        <div
+          className=""
+          style={
+            {
+              // fontSize: "1rem",
+            }
+          }
+        >
+          {/* <h3>{title}</h3> */}
+          <h4>{title}</h4>
+          {/* <b>{title}</b> */}
         </div>
         {/* <div className="col tw-col--5 text--right"> */}
         <div className="sm:tw-text-left md:tw-text-right">
@@ -126,7 +137,7 @@ function Feature({ title, description, icon, iconColor, link }: FeatureItem) {
             // className="refine-button refine-button--secondary"
             style={{
               // display: "flex",
-              // fontSize: "0.8rem",
+              fontSize: "0.8rem",
               // color: "var(--ifm-color-emphasis-700)",
               marginTop: "-0.5rem",
               marginRight: "-0.8rem",
@@ -146,7 +157,13 @@ function Feature({ title, description, icon, iconColor, link }: FeatureItem) {
           </Link>
         </div>
       </div>
-      <p>{description}</p>
+      <p
+        style={{
+          fontSize: "0.88rem",
+        }}
+      >
+        {description}
+      </p>
     </div>
   );
 }

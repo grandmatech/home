@@ -21,8 +21,8 @@ export default function Home(): JSX.Element {
       <Hero />
       <main>
         <Solution />
-        <Scenario />
-        <Case />
+        {/* <Scenario /> */}
+        {/* <Case /> */}
         <Brand />
         <section className="features-section2">
           <div className="container" style={{ width: "80%" }}>

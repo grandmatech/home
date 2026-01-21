@@ -89,10 +89,10 @@ const config: Config = {
         // },
         { to: "/", label: "首页", position: "left" },
         { to: "/solution_docs", label: "解决方案", position: "left" },
-        { to: "/scenario_docs", label: "应用场景", position: "left" },
-        { to: "/case_docs", label: "客户案例", position: "left" },
-        { to: "/blog", label: "新闻动态", position: "left" },
-        // { to: "/contact", label: "联系我们", position: "left" },
+        // { to: "/scenario_docs", label: "应用场景", position: "left" },
+        // { to: "/case_docs", label: "客户案例", position: "left" },
+        // { to: "/blog", label: "新闻动态", position: "left" },
+        { to: "/contact", label: "联系我们", position: "left" },
         // { to: "/about", label: "关于我们", position: "left" },
         // {
         //   type: "localeDropdown",
@@ -119,14 +119,14 @@ const config: Config = {
               label: "解决方案",
               to: "/solution_docs",
             },
-            {
-              label: "应用场景",
-              to: "/scenario_docs",
-            },
-            {
-              label: "客户案例",
-              to: "/case_docs",
-            },
+            // {
+            //   label: "应用场景",
+            //   to: "/scenario_docs",
+            // },
+            // {
+            //   label: "客户案例",
+            //   to: "/case_docs",
+            // },
           ],
         },
         {
@@ -136,10 +136,10 @@ const config: Config = {
             //   label: "技术文档",
             //   to: "/docs",
             // },
-            {
-              label: "新闻动态",
-              to: "/blog",
-            },
+            // {
+            //   label: "新闻动态",
+            //   to: "/blog",
+            // },
             {
               label: "免费试用",
               to: "/contact",
@@ -185,7 +185,8 @@ const config: Config = {
         //   ],
         // },
       ],
-      copyright: `<span style="color: grey;">Copyright © ${new Date().getFullYear()} 格岚玛（广州）科技有限公司. All Rights Reserved. <a style="color: grey;" href="https://beian.mps.gov.cn/#/query/webSearch?code=44011302004916" target="_blank" rel="nofollow"> <img src="https://qcloudimg.tencent-cloud.cn/raw/eed02831a0e201b8d794c8282c40cf2e.png" style="width: 14px; margin-right: 5px;"> <span>粤公网安备44011302004916号 </span></a> <a style="color: grey;" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025444806号-1</a></span>`, // 替换备案号
+
+      copyright: `<span style="color: grey;">Copyright © ${new Date().getFullYear()} 格岚玛（广州）科技有限公司. All Rights Reserved. <a style="color: grey;" href="https://beian.mps.gov.cn/#/query/webSearch?code=44011302004916" target="_blank" rel="noreferrer"> <img src="https://qcloudimg.tencent-cloud.cn/raw/eed02831a0e201b8d794c8282c40cf2e.png" style="width: 14px; margin-right: 5px;"> <span>粤公网安备44011302004916号 </span></a> <a style="color: grey;" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025444806号-1</a></span>`,
     },
     prism: {
       theme: prismThemes.github,
@@ -214,24 +215,24 @@ const config: Config = {
         sidebarPath: "./sidebarsSolutionDocs.ts",
       },
     ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "scenario_docs",
-        path: "scenario_docs",
-        routeBasePath: "scenario_docs",
-        sidebarPath: "./sidebarsSolutionScenario.ts",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "case_docs",
-        path: "case_docs",
-        routeBasePath: "case_docs",
-        sidebarPath: "./sidebarsSolutionCase.ts",
-      },
-    ],
+    // [
+    //   "@docusaurus/plugin-content-docs",
+    //   {
+    //     id: "scenario_docs",
+    //     path: "scenario_docs",
+    //     routeBasePath: "scenario_docs",
+    //     sidebarPath: "./sidebarsSolutionScenario.ts",
+    //   },
+    // ],
+    // [
+    //   "@docusaurus/plugin-content-docs",
+    //   {
+    //     id: "case_docs",
+    //     path: "case_docs",
+    //     routeBasePath: "case_docs",
+    //     sidebarPath: "./sidebarsSolutionCase.ts",
+    //   },
+    // ],
     [
       "@docusaurus/plugin-sitemap",
       {

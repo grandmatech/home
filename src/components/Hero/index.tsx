@@ -74,8 +74,9 @@ export default function Hero(): JSX.Element {
           {/* 右侧：图片 */}
           <div className="tw-flex tw-justify-left">
             <img
-              // src="/img/hero.png" // 替换为您的图片路径
-              src={config.customFields.imgUrlHero as string}
+              // src="img/hero.png" // 替换为您的图片路径
+              // src={config.customFields.imgUrlHero as string}
+              src="img/crm_数据可视.gif"
               alt="企业信息化解决方案"
               width="80%"
               style={{

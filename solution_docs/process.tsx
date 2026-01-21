@@ -13,25 +13,29 @@ type FeatureItem = {
 const ProcessList: FeatureItem[] = [
   {
     title: "需求调研",
-    icon: "📋",
+    // icon: "📋",
+    icon: "",
     iconColor: "red",
     description: <>深入了解客户需求，制定详细的解决方案</>,
   },
   {
     title: "方案设计",
-    icon: "🎨",
+    // icon: "🎨",
+    icon: "",
     iconColor: "orange",
     description: <>基于需求分析，设计最优的技术架构方案</>,
   },
   {
     title: "快速开发",
-    icon: "⚡",
+    // icon: "⚡",
+    icon: "",
     iconColor: "green",
     description: <>采用敏捷开发模式，确保项目快速交付</>,
   },
   {
     title: "持续维护",
-    icon: "🛠️",
+    // icon: "🛠️",
+    icon: "",
     iconColor: "grey",
     description: <>提供专业的运维服务和技术支持</>,
   },
@@ -43,8 +47,15 @@ function Process({ title, description, icon, iconColor }: FeatureItem) {
       <div className={`refine-card__icon2 refine-card__icon--${iconColor}`}>
         {icon}
       </div>
-      <h3>{title}</h3>
-      <p>{description}</p>
+      {/* <h3>{title}</h3> */}
+      <h4>{title}</h4>
+      <p
+        style={{
+          fontSize: "0.88rem",
+        }}
+      >
+        {description}
+      </p>
     </div>
   );
 }

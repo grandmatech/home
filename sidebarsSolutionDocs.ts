@@ -13,7 +13,14 @@ const sidebars: SidebarsConfig = {
         type: "doc",
         id: "index", // solution_docs/index.mdx
       },
-      items: ["digital", "integration", "ai", "bi", "train", "standard"],
+      items: [
+        "digital",
+        "integration",
+        // "ai",
+        // "bi",
+        "train",
+        "standard",
+      ],
     },
   ],
 };

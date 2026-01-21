@@ -1,6 +1,6 @@
 {
-  "name": "grok-3-1",
-  "version": "0.0.0",
+  "name": "glm_home",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

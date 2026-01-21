@@ -9,7 +9,7 @@ if [ "$1" == "proxy" ]; then  # ./deploy.sh proxy 运行时
     yarn config set https-proxy $proxy_ip
 fi
 
-git add -A && git commit -m "refine mobile" && git push -u origin main
+git add -A && git commit -m "update" && git push -u origin main
 
 # # 必须用 GIT_USER 指定其它用户, 且可能需要输入 PAT
 GIT_USER=grandmatech GIT_USER_NAME=grandmatech GIT_USER_EMAIL=grandmatech@126.com yarn deploy  # 自动部署到 github page
